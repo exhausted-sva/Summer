@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#menu {
+    text-align: center;
+    border: 4px solid;
+    width: 98%;
+    height: 100px;
+    display: flex; justify-content:center; align-items: center;    
+    border-radius: 30px;
+    margin: 10px auto;
+}
+
+body{
+    background-image: url(img/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; /* Чтобы изображение не повторялось */
+    background-position: center; /* Центрирование изображения */
+}
+
+.head-menu-buttons{
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    border: 4px solid ;
+    border-color: #6699CC;
+    background-color: #003366;
+    font-size: large;
+    color:rgb(165, 190, 224);
+}
+
+.current {
+    background-color: #3366CC;
+}
+
+.head-menu-buttons:hover{
+    background-color: #3366CC;     
+    cursor: pointer;  
+}
+
+
+
+.head-menu-buttons:nth-child(odd){
+    margin: 0px 50px;
+}
+
+#main-body {
+    width: 98%;
+    height: 580px;
+    border: 4px solid black;
+    margin-top: 10px;
+    margin: 0 auto;
+    border-radius: 30px;
+    color: #6699CC;
+    display: flex;
+}
+
+.left-text {
+    border: 2px solid black;
+    width: 49%;
+    margin: auto;
+    height: 98%;
+    border-radius: 30px;
+}
+
+.right-img {
+    border-radius: 30px;
+    border: 2px solid black;
+    width: 49%;
+    margin: auto;
+    height: 98%;
+}
+
+.label {
+    text-align: center;
+}
+
+
+.right-img{
+    background-size: cover;
+    background-repeat: no-repeat; /* Чтобы изображение не повторялось */
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 190px;
+    font-size: 70px;
+}
+
+#list {
+    list-style-type: none;
+    display: block;
+}
+
+
+
+.hobbi {
+    height: 60px;
+    width: 40%;
+    background-color: #003366;
+    margin-top: 65px;
+    text-align: center;
+    line-height: 60px;
+    border: 2px solid #6699CC ;
+    color: #3366CC;
+    font-size: 25px;
+    font-weight: 600;
+    left: 200px;
+    position: relative;
+    transition: margin-left  500ms ease-in-out , border-radius 500ms ease-in-out , margin-right  500ms ease-in-out , background  500ms ease-in-out , color  500ms ease-in-out;
+}
+
+.hobbi:hover {
+    .git{
+        color: rgb(56, 22, 0);
+    }
+    background-color:#3366CC;
+}
+
+.git {
+    text-decoration: none;
+    color:white;
+    transition:   500ms ease-in-out;
+}
+
+
