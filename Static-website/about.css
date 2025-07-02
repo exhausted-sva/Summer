@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#menu {
+    text-align: center;
+    border: 4px solid;
+    width: 98%;
+    height: 100px;
+    display: flex; justify-content:center; align-items: center;    
+    border-radius: 30px;
+    margin: 10px auto;
+}
+
+body{
+    background-image: url(img/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; /* Чтобы изображение не повторялось */
+    background-position: center; /* Центрирование изображения */
+}
+
+.head-menu-buttons{
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    border: 4px solid ;
+    border-color: #6699CC;
+    background-color: #003366;
+    font-size: large;
+    color:rgb(165, 190, 224);
+}
+
+.current {
+    background-color: #3366CC;
+}
+
+.head-menu-buttons:hover{
+    background-color: #3366CC;     
+    cursor: pointer;  
+}
+
+
+
+.head-menu-buttons:nth-child(odd){
+    margin: 0px 50px;
+}
+
+#main-body {
+    width: 98%;
+    height: 580px;
+    border: 4px solid black;
+    margin-top: 10px;
+    margin: 0 auto;
+    border-radius: 30px;
+    color: #6699CC;
+    display: flex;
+}
+
+.left-text {
+    border: 2px solid black;
+    width: 49%;
+    margin: auto;
+    height: 98%;
+    border-radius: 30px;
+}
+
+.right-img {
+    border-radius: 30px;
+    border: 2px solid black;
+    width: 49%;
+    margin: auto;
+    height: 98%;
+}
+
+.label {
+    text-align: center;
+}
+
+#welcome-section {
+    text-align: center;
+    padding: 40px 20px;
+    color: #fff; /* Adjust color to match your theme */
+}
+
+.tagline {
+    font-size: 1.2em;
+    color: #6699CC; /* Accent color */
+    margin: 10px 0;
+    font-size: 25px;
+    text-align: center;
+}
+
+.intro {
+    margin: 0 15px;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+.right-img{
+    background-size: cover;
+    background-repeat: no-repeat; /* Чтобы изображение не повторялось */
+    background-position: center;
+}
+
+video{
+    border-radius: 30px;
+    width: 97%;
+    margin: 0 10px;
+    height: 90%;
+}
+
+h1 {
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
