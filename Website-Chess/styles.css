@@ -36,6 +36,13 @@ nav {
     margin: 0 15px;
 }
 
+.main-video {
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:70px auto;
+}
+
 .menu a {
     color: #fff;
     text-decoration: none;
